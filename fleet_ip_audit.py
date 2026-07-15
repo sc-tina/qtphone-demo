@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""QTPhone Fleet IP Audit 鈥?Batch IP verification across your device fleet."""
+"""Android Cloud Device Fleet IP Audit -- Batch IP verification across your device fleet."""
 import json, sys, urllib.request, time
 from datetime import datetime
 
-API_BASE = "https://api.qtphone.com/v1"  # Replace with real endpoint
+API_BASE = "https://api.example.com/v1"  # Replace with your Android cloud device API endpoint
 
 def get_public_ip():
     try:
@@ -13,7 +13,7 @@ def get_public_ip():
         return f"ERROR: {e}"
 
 def get_device_ip(device_id, api_key=None):
-    headers = {"User-Agent": "QTPhone-FleetAudit/1.0"}
+    headers = {"User-Agent: AndroidCloudFleetAudit/1.0/1.0/1.0"}
     if api_key:
         headers["Authorization"] = f"Bearer {api_key}"
     try:
@@ -25,7 +25,7 @@ def get_device_ip(device_id, api_key=None):
         return get_public_ip(), "N/A"
 
 def audit_fleet(path=None, api_key=None):
-    print("QTPhone Fleet IP Audit")
+    print("Android Cloud Device Fleet IP Audit")
     print("=" * 50)
     print(f"[{datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')} UTC]")
     if path:
