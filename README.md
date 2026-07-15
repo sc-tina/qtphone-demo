@@ -1,15 +1,15 @@
-# QTPhone Demo - Global Independent IP Cloud Phone
+# Android Cloud Device Demo - Global Independent IP Android Android Cloud Phone
 
-> **Live Demo Repository** | [qtphone.com](https://www.qtphone.com/) | [Main Repo](https://github.com/luoshixin93-sudo/qtphone)
+> **Live Demo Repository** | [android-cloud-device.com](https://www.android-cloud-device.com/) | [Main Repo](https://github.com/luoshixin93-sudo/android-cloud-device)
 
-QTPhone provides **cloud Android devices with dedicated, independent IPs** -- built for
+Android Cloud Device provides **cloud Android devices with dedicated, independent IPs** -- built for
 social-media marketing, automation, gaming multi-instance, and large-scale app testing.
 
 ---
 
 ## What this repo shows
 
-This repo demonstrates four QTPhone core capabilities:
+This repo demonstrates four Android Cloud Device core capabilities:
 
 | Script | What it does |
 |--------|-------------|
@@ -19,7 +19,7 @@ This repo demonstrates four QTPhone core capabilities:
 
 ## What's new (2026-07-14)
 
-Four new open-source repos joined the QTPhone ecosystem today:
+Four new open-source repos joined the Android Cloud Device ecosystem today:
 
 | Repo | Description |
 |------|-------------|
@@ -28,12 +28,12 @@ Four new open-source repos joined the QTPhone ecosystem today:
 | [cloud-phone-gms-guide](https://github.com/luoshixin93-sudo/cloud-phone-gms-guide) | Step-by-step GMS/Google Play Store installation on cloud phones |
 | [appium-parallel-runner](https://github.com/luoshixin93-sudo/appium-parallel-runner) | Parallel Appium test runner for Android/iOS real devices |
 
-## Full QTPhone Open-Source Ecosystem
+## Full Android Cloud Device Open-Source Ecosystem
 
 15 open-source repos covering every layer of cloud Android infrastructure:
 
 **Core Platform**
-- [qtphone](https://github.com/luoshixin93-sudo/qtphone) - Main platform repo
+- [android-cloud-device](https://github.com/luoshixin93-sudo/android-cloud-device) - Main platform repo
 - [cloudphone-sdk-python](https://github.com/luoshixin93-sudo/cloudphone-sdk-python) - Python SDK
 
 **Testing & Automation**
@@ -54,7 +54,7 @@ Four new open-source repos joined the QTPhone ecosystem today:
 ## Quick start
 
 ```bash
-# Run IP checker (from any QTPhone cloud device)
+# Run IP checker (from any Android Cloud Device cloud device)
 python ip_check.py
 
 # Run device status checker
@@ -67,7 +67,7 @@ python fleet_ip_audit.py
 ### Sample output - fleet_ip_audit.py
 
 ```
-QTPhone Fleet IP Audit
+Android Cloud Device Fleet IP Audit
 ====================== [2026-07-14 10:00:00 UTC]
 Scanning 5 devices...
 Device-01 | 203.0.113.42 | HK    | Status: UNIQUE
@@ -81,7 +81,7 @@ Recommendation: Reroute Device-03 and Device-05 to different IP pools
 
 ## Use cases
 
-| Use case | Why QTPhone |
+| Use case | Why Android Cloud Device |
 |----------|-------------|
 | Social media marketing | Run many accounts, each on its own IP - no cross-linkage |
 | Automation & bots | Scale scripts across isolated cloud Android instances |
@@ -100,7 +100,7 @@ Recommendation: Reroute Device-03 and Device-05 to different IP pools
 
 ## Community Tools We Star
 
-QTPhone builds in the open. These are the tools in our stack:
+Android Cloud Device builds in the open. These are the tools in our stack:
 
 - [playwright](https://github.com/microsoft/playwright) (92k stars) - Browser automation
 - [scrcpy](https://github.com/Genymobile/scrcpy) (145k stars) - Android screen mirroring
@@ -113,7 +113,7 @@ QTPhone builds in the open. These are the tools in our stack:
 
 | Channel | Address |
 |---------|---------|
-| Website | [qtphone.com](https://www.qtphone.com/) |
+| Website | [android-cloud-device.com](https://www.android-cloud-device.com/) |
 | WhatsApp | @along915 |
 | Email | ailong9281@gmail.com |
 | Telegram | [@Alongyun](https://t.me/Alongyun) |
